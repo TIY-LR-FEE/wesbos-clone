@@ -1,0 +1,81 @@
+body {
+	margin: 0;
+	background-image: url('http://wesbos.com/wp-content/themes/wb2014/i/whooosh.png');
+	background-size: 100% 150px;
+	background-repeat: no-repeat;
+}
+
+main {
+	width: 100vw;
+	height: 100vh;
+}
+
+.sidebar {
+	border-top: 3px solid yellow;
+	width: 280px;
+	background-color: #333;
+	height: 100vh;
+	float: left;
+}
+
+.sidebar h1 {
+	margin: 0;
+	background-image: url('http://wesbos.com/wp-content/themes/wb2014/i/crown-yellow.png');
+	background-size: 200px;
+	background-repeat: no-repeat;
+	background-position: center 20px;
+	text-align: center;
+	font-size: 4rem;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 140px 0 0;
+}
+
+.sidebar ul {
+	padding: 0;
+	list-style: none;
+}
+
+.sidebar li:first-child {
+	border-top: 1px solid #000;
+}
+
+.sidebar li {
+	border-bottom: 1px solid #000;
+}
+
+.sidebar li a {
+	display: block;
+	width: 100%;
+	font-size: 1.2rem;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+	padding: 6px 0;
+}
+
+.content {
+	float: left;
+	width: 700px;
+}
+
+.top-advertisement {
+	height: 110px;
+	width: 100%;
+	padding: 20px;
+}
+
+.top-advertisement img {
+	float: left;
+}
+
+.top-advertisement div {
+	float: left;
+	width: 562px;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
